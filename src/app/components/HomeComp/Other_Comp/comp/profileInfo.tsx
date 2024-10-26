@@ -18,7 +18,7 @@ export default function ProfileInfo() {
       >
         <div>
           <GradientTxt
-            txt="FULLSTACK DEVELOPER"
+            txt="SOFTWARE ENGINEER"
             className="text-[22px] font-bold tracking-[4px]"
             tagName="h5"
           />
@@ -41,7 +41,7 @@ export default function ProfileInfo() {
         transition={{ duration: 0.5 }}
         className="grid gap-4"
       >
-         <Image
+        <Image
           src={profImage}
           alt="image"
           className="col-span-2 w-full xl:col-start-2 xl:col-end-4 xl:row-start-1 xl:row-end-3 xl:h-full xl:w-auto"

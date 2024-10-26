@@ -20,12 +20,14 @@ export default function Hero() {
       >
         <h1 className="mb-4 text-[40px] font-bold leading-[110%] md:text-[68px] lg:text-[70px]">
           <GradientTxt tagName="span" txt="I develop fullstack" /> solutions
-          that delight and inspire users.
+          that delight and empower users.
         </h1>
 
         <p className="mb-16 text-[19px] text-[#666] lg:text-[22px]">
-          Hi! I'm Diven, a Fullstack Web Developer based in Mumbai. I create
-          user-friendly interfaces for fast-growing startups.
+          Hi! I'm Diven, a Software Engineer based in Mumbai, specializing in
+          building robust and user-centric applications. I work with
+          fast-growing startups and established businesses to create scalable,
+          efficient, and secure web solutions that drive engagement and growth.
         </p>
 
         <div className="mb-16 flex flex-col gap-4 md:flex-row xl:items-center">
