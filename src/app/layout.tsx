@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_LIVE_URL as string),
   keywords: seoKeywords,
   title: {
-    default: "Home | <ReactMode />",
-    template: "%s | <ReactMode />",
+    default: "DivenKhatri | <SoftwareEngineer />",
+    template: "%s | <DivenKhatri />",
   },
   description:
-    "Welcome to my professional portfolio repository! This project showcases my journey, skills, and projects as a fullstack developer. It serves as a central repository for all my work, experiences, and achievements in web development.",
+    "Explore my professional portfolio showcasing my experience in full-stack development, cloud technologies, and machine learning. This repository highlights my work in front-end and back-end development, microservices, cloud deployment, and secure API design. Dive into my projects, skillset, and achievements that reflect my journey as a versatile software engineer.",
   openGraph: {
     description:
-      "Welcome to my professional portfolio repository! This project showcases my journey, skills, and projects as a fullstack developer. It serves as a central repository for all my work, experiences, and achievements in web development.",
+      "Explore my professional portfolio showcasing my experience in full-stack development, cloud technologies, and machine learning. This repository highlights my work in front-end and back-end development, microservices, cloud deployment, and secure API design. Dive into my projects, skillset, and achievements that reflect my journey as a versatile software engineer.",
     images: [
       new URL("/opengraphImg.png", process.env.NEXT_PUBLIC_LIVE_URL as string)
         .href,
-    ], // image to be shown of website when linked to different sources
+    ],
   },
 };
 

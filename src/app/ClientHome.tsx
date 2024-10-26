@@ -29,7 +29,7 @@ const Preloader = function () {
       >
         <GradientTxt
           tagName="h2"
-          txt="<ReactMode />"
+          txt="<SoftwareEngineer />"
           className="text-[22px] font-bold md:text-[36px] xl:text-[54px]"
         />
       </motion.div>
