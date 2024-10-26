@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import profImage from "../../../../../../public/img1.jpg";
+import profImage from "../../../../../../public/img5.jpeg";
 import profImage2 from "../../../../../../public/img4.jpg";
 import profImage3 from "../../../../../../public/img3.jpg";
 import profImage4 from "../../../../../../public/img2.jpeg";
@@ -41,8 +41,8 @@ export default function ProfileInfo() {
         transition={{ duration: 0.5 }}
         className="grid gap-4"
       >
-        <Image
-          src={profImage4}
+         <Image
+          src={profImage}
           alt="image"
           className="col-span-2 w-full xl:col-start-2 xl:col-end-4 xl:row-start-1 xl:row-end-3 xl:h-full xl:w-auto"
         />
@@ -57,7 +57,7 @@ export default function ProfileInfo() {
           className="col-span-1 w-full xl:col-span-1 xl:col-start-4 xl:row-start-2 xl:row-end-3 xl:h-full xl:w-auto xl:object-cover"
         />
         <Image
-          src={profImage}
+          src={profImage4}
           alt="image"
           className="col-span-2 w-full xl:col-span-1 xl:col-start-1 xl:row-span-2 xl:row-start-1 xl:row-end-3 xl:aspect-9/16 xl:h-full xl:w-auto xl:object-cover"
         />

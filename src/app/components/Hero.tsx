@@ -2,11 +2,11 @@
 
 import CustomBtn from "./Reusables/CustomBtn";
 import GradientTxt from "./Reusables/GradientTxt";
-import profImg from "../../../public/img2.jpeg";
+import profImg from "../../../public/img5.jpeg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import resume from "../../../public/Abdullah_Resume.pdf";
+import resume from "../../../public/Diven_Khatri_Resume.pdf";
 
 export default function Hero() {
   const MotionImage = motion(Image);
@@ -24,7 +24,7 @@ export default function Hero() {
         </h1>
 
         <p className="mb-16 text-[19px] text-[#666] lg:text-[22px]">
-          Hi! I'm Abdullah, a Fullstack Web Developer based in Nigeria. I create
+          Hi! I'm Diven, a Fullstack Web Developer based in Mumbai. I create
           user-friendly interfaces for fast-growing startups.
         </p>
 
@@ -34,7 +34,7 @@ export default function Hero() {
             href={resume}
             target="_blank"
             rel="noopener noreferrer"
-            download="Abdullah_Resume.pdf"
+            download="Diven_Khatri_Resume.pdf"
             className="group flex cursor-pointer items-center gap-2 text-lg font-bold"
           >
             <span>Download CV</span>

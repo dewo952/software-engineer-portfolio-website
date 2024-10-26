@@ -38,17 +38,12 @@ export default function ContactDetails() {
 
     {
       name: "Linkedin",
-      path: "https://www.linkedin.com/in/ayo540",
-    },
-
-    {
-      name: "Twitter",
-      path: "https://x.com/officialayo540",
+      path: "https://www.linkedin.com/in/divenkhatri/",
     },
 
     {
       name: "Github",
-      path: "https://github.com/abdullah43577",
+      path: "https://github.com/dewo952",
     },
   ];
 
@@ -71,7 +66,7 @@ export default function ContactDetails() {
             {" <React"}
             <GradientTxt tagName="span" txt="Mode />." />
           </h2>
-          <p className="py-2 text-[#8a95ad]">Lagos, Nigeria</p>
+          <p className="py-2 text-[#8a95ad]">Mumbai, India</p>
           <div className="flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +83,7 @@ export default function ContactDetails() {
               target="_blank"
               className="text-[17px] font-bold text-[#8a95ad]"
             >
-              officialayo540@gmail.com
+              divenkhtri@gmail.com
             </Link>
           </div>
         </div>
