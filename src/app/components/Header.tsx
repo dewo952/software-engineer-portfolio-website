@@ -11,7 +11,6 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="relative">
       <div className="container mx-auto px-5 pt-5 lg:px-20">
         <nav>
           <div className="flex items-center justify-between pb-3">
@@ -151,6 +150,5 @@ export default function Header() {
           </motion.div>
         </nav>
       </div>
-    </header>
   );
 }

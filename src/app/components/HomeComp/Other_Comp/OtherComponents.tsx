@@ -1,6 +1,5 @@
 import EducationSect from "./comp/Education/educationSect";
 import ProfileInfo from "./comp/profileInfo";
-import Testimonials from "./comp/Testimonials";
 
 export default function OtherComponents() {
   return (

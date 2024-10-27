@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { FaRegCopy, FaCheck} from "react-icons/fa6";
-import {Poppins} from 'next/font/google'
+
 
 interface CodeBlockProps {
   filename: string;
@@ -46,6 +46,8 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ filename, code, language }) => {
       <div className="rounded-b-lg bg-[#011626] px-4 py-2">
         <SyntaxHighlighter
           wrapLongLines
+          showLineNumbers
+          lineNumberStyle={{ color: "#888", paddingRight: "1em" }}
           language={language || "javascript"}
           style={nightOwl}
         >

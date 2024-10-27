@@ -1,136 +1,185 @@
 [
-    {
-      "technology": "HTML",
-      "icon": {
-        "url": "/tech/html.png",
-        "alt": "HTML Icon"
-      }
-    },
-    {
-      "technology": "CSS",
-      "icon": {
-        "url": "/tech/css.png",
-        "alt": "CSS Icon"
-      }
-    },
-    {
-      "technology": "Tailwind CSS",
-      "icon": {
-        "url": "/tech/tailwind.png",
-        "alt": "Tailwind CSS Icon"
-      }
-    },
-    {
-      "technology": "JavaScript",
-      "icon": {
-        "url": "/tech/js.png",
-        "alt": "JavaScript Icon"
-      }
-    },
-    {
-      "technology": "React.js",
-      "icon": {
-        "url": "/tech/react.png",
-        "alt": "React.js Icon"
-      }
-    },
-    {
-      "technology": "Redux",
-      "icon": {
-        "url": "/tech/redux.png",
-        "alt": "Redux Icon"
-      }
-    },
-    {
-      "technology": "Next.js",
-      "icon": {
-        "url": "/tech/next.png",
-        "alt": "Next.js Icon"
-      }
-    },
-    {
-      "technology": "Node.js",
-      "icon": {
-        "url": "/tech/node.png",
-        "alt": "Node.js Icon"
-      }
-    },
-    {
-      "technology": "Express.js",
-      "icon": {
-        "url": "/tech/express.png",
-        "alt": "Express.js Icon"
-      }
-    },
-    {
-      "technology": "Python",
-      "icon": {
-        "url": "/tech/python.png",
-        "alt": "Python Icon"
-      }
-    },
-    {
-      "technology": "Django",
-      "icon": {
-        "url": "/tech/django.png",
-        "alt": "Django Icon"
-      }
-    },
-    {
-      "technology": "FastAPI",
-      "icon": {
-        "url": "/tech/fastapi.png",
-        "alt": "FastAPI Icon"
-      }
-    },
-    {
-      "technology": "Flask",
-      "icon": {
-        "url": "/tech/flask.png",
-        "alt": "Flask Icon"
-      }
-    },
-    {
-      "technology": "Docker",
-      "icon": {
-        "url": "/tech/docker.png",
-        "alt": "Docker Icon"
-      }
-    },
-    {
-      "technology": "AWS",
-      "icon": {
-        "url": "/tech/aws.png",
-        "alt": "AWS Icon"
-      }
-    },
-    {
-      "technology": "GCP",
-      "icon": {
-        "url": "/tech/gcp.png",
-        "alt": "GCP Icon"
-      }
-    },
-    {
-      "technology": "PostgreSQL",
-      "icon": {
-        "url": "/tech/postgres.png",
-        "alt": "PostgreSQL Icon"
-      }
-    },
-    {
-      "technology": "MySQL",
-      "icon": {
-        "url": "/tech/mysql.png",
-        "alt": "MySQL Icon"
-      }
-    },
-    {
-      "technology": "Redis",
-      "icon": {
-        "url": "/tech/redis.png",
-        "alt": "Redis Icon"
-      }
+  {
+    "technology": "JavaScript",
+    "icon": {
+      "url": "/tech/js.png",
+      "alt": "JavaScript Icon"
     }
-  ]
-  
+  },
+  {
+    "technology": "React.js",
+    "icon": {
+      "url": "/tech/react.png",
+      "alt": "React.js Icon"
+    }
+  },
+  {
+    "technology": "Redux",
+    "icon": {
+      "url": "/tech/redux.png",
+      "alt": "Redux Icon"
+    }
+  },
+  {
+    "technology": "Next.js",
+    "icon": {
+      "url": "/tech/next.png",
+      "alt": "Next.js Icon"
+    }
+  },
+  {
+    "technology": "Tailwind CSS",
+    "icon": {
+      "url": "/tech/tailwind.png",
+      "alt": "Tailwind CSS Icon"
+    }
+  },
+  {
+    "technology": "Node.js",
+    "icon": {
+      "url": "/tech/node.png",
+      "alt": "Node.js Icon"
+    }
+  },
+  {
+    "technology": "Express.js",
+    "icon": {
+      "url": "/tech/express.png",
+      "alt": "Express.js Icon"
+    }
+  },
+
+  {
+    "technology": "Python",
+    "icon": {
+      "url": "/tech/python.png",
+      "alt": "Python Icon"
+    }
+  },
+  {
+    "technology": "Django",
+    "icon": {
+      "url": "/tech/django.png",
+      "alt": "Django Icon"
+    }
+  },
+  {
+    "technology": "FastAPI",
+    "icon": {
+      "url": "/tech/fastapi.png",
+      "alt": "FastAPI Icon"
+    }
+  },
+  {
+    "technology": "Docker Container",
+    "icon": {
+      "url": "/tech/docker.png",
+      "alt": "Docker Icon"
+    }
+  },
+  {
+    "technology": "GCP",
+    "icon": {
+      "url": "/tech/gcp.png",
+      "alt": "GCP Icon"
+    }
+  },
+  {
+    "technology": "BigQuery",
+    "icon": {
+      "url": "/tech/bigquery.png",
+      "alt": "BigQuery Icon"
+    }
+  },
+  {
+    "technology": "AWS",
+    "icon": {
+      "url": "/tech/aws.png",
+      "alt": "AWS Icon"
+    }
+  },
+  {
+    "technology": "Aurora",
+    "icon": {
+      "url": "/tech/aws/Aurora.png",
+      "alt": "Aurora Icon"
+    }
+  },
+  {
+    "technology": "Cognito",
+    "icon": {
+      "url": "/tech/aws/Cognito.png",
+      "alt": "Cognito"
+    }
+  },
+  {
+    "technology": "EC2",
+    "icon": {
+      "url": "/tech/aws/EC2.png",
+      "alt": "EC2"
+    }
+  },
+  {
+    "technology": "Amplify",
+    "icon": {
+      "url": "/tech/aws/Amplify.png",
+      "alt": "Amplify"
+    }
+  },
+  {
+    "technology": "API Gateway",
+    "icon": {
+      "url": "/tech/aws/APIGateway.png",
+      "alt": "API Gateway"
+    }
+  },
+  {
+    "technology": "AWS RDS",
+    "icon": {
+      "url": "/tech/aws/rds.png",
+      "alt": "AWS RDS"
+    }
+  },
+  {
+    "technology": "AWS redshift",
+    "icon": {
+      "url": "/tech/aws/redshift.png",
+      "alt": "AWS redshift"
+    }
+  },
+  {
+    "technology": "AWS S3",
+    "icon": {
+      "url": "/tech/aws/s3.png",
+      "alt": "AWS S3"
+    }
+  },
+  {
+    "technology": "Redis",
+    "icon": {
+      "url": "/tech/redis.png",
+      "alt": "Redis Icon"
+    }
+  },
+  {
+    "technology": "PostgreSQL",
+    "icon": {
+      "url": "/tech/postgres.png",
+      "alt": "PostgreSQL Icon"
+    }
+  },
+  {
+    "technology": "MySQL",
+    "icon": {
+      "url": "/tech/mysql.png",
+      "alt": "MySQL Icon"
+    }
+  },
+  {
+    "technology": "Figma",
+    "icon": {
+      "url": "/tech/figma.png",
+      "alt": "Figma Icon"
+    }
+  }
+]

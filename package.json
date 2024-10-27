@@ -16,6 +16,7 @@
     "@sanity/code-input": "^4.1.4",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.44.0",
+    "@splidejs/react-splide": "^0.7.12",
     "framer-motion": "^11.2.9",
     "next": "14.2.3",
     "next-sanity": "^9.3.8",
@@ -32,7 +33,7 @@
     "sanity": "^3.44.0",
     "sharp": "^0.33.5",
     "styled-components": "^6.1.13",
-    "swiper": "^11.1.4"
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",

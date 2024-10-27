@@ -27,7 +27,7 @@ export default async function Projects() {
     toast.error("Error fetching articles, please try again later!");
 
   return (
-    <section>
+    <section className="mt-20">
       <div className="container mx-auto grid gap-40 px-5 pt-20 lg:px-20 xl:gap-20">
         {!projects.length ? (
           <ProjectSkeleton />

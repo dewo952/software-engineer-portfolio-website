@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import profImage from "../../../../../../public/img5.jpeg";
-import profImage2 from "../../../../../../public/img4.jpg";
+import profImage from "../../../../../../public/img6.jpeg";
+import profImage2 from "../../../../../../public/img2.jpeg";
 import profImage3 from "../../../../../../public/img3.jpg";
-import profImage4 from "../../../../../../public/img2.jpeg";
+import profImage4 from "../../../../../../public/img5.jpg";
 import GradientTxt from "../../../Reusables/GradientTxt";
 import FadeUp from "@/animations/FadeUp";
 import { motion } from "framer-motion";
