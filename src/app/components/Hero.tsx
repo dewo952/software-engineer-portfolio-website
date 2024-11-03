@@ -2,7 +2,7 @@
 
 import CustomBtn from "./Reusables/CustomBtn";
 import GradientTxt from "./Reusables/GradientTxt";
-import profImg from "../../../public/img5.jpg";
+import HeroImage from "../../../public/firstImage.avif";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -61,7 +61,7 @@ export default function Hero() {
         initial={{ scale: 1.2 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
-        src={profImg}
+        src={HeroImage}
         alt="profile image"
         className="mx-auto w-full rounded-full lg:w-[500px]"
         loading="eager"

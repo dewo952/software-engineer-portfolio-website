@@ -1,10 +1,13 @@
 "use client";
 
+// Images
 import Image from "next/image";
-import profImage from "../../../../../../public/img6.jpeg";
-import profImage2 from "../../../../../../public/img2.jpeg";
-import profImage3 from "../../../../../../public/img3.jpg";
-import profImage4 from "../../../../../../public/img5.jpg";
+import firstImage from "../../../../../../public/firstImage.avif";
+import centerImage from "../../../../../../public/centerImage.avif";
+import thirdImage from "../../../../../../public/img3.jpg";
+import fourthImage from "../../../../../../public/fourthImage.webp";
+
+// Other Components
 import GradientTxt from "../../../Reusables/GradientTxt";
 import FadeUp from "@/animations/FadeUp";
 import { motion } from "framer-motion";
@@ -41,23 +44,30 @@ export default function ProfileInfo() {
         transition={{ duration: 0.5 }}
         className="grid gap-4"
       >
+        {/* Center Image */}
         <Image
-          src={profImage}
+          src={centerImage}
           alt="image"
           className="col-span-2 w-full xl:col-start-2 xl:col-end-4 xl:row-start-1 xl:row-end-3 xl:h-full xl:w-auto"
         />
+
+        {/* 3rd row, first image */}
         <Image
-          src={profImage3}
+          src={thirdImage}
           alt="image"
           className="col-span-1 w-full xl:col-span-1 xl:col-start-4 xl:row-start-1 xl:row-end-2 xl:h-full xl:w-auto"
         />
+
+        {/* 3rd row, second image */}
         <Image
-          src={profImage2}
+          src={fourthImage}
           alt="image"
           className="col-span-1 w-full xl:col-span-1 xl:col-start-4 xl:row-start-2 xl:row-end-3 xl:h-full xl:w-auto xl:object-cover"
         />
+
+        {/* 1st row, first image */}
         <Image
-          src={profImage4}
+          src={firstImage}
           alt="image"
           className="col-span-2 w-full xl:col-span-1 xl:col-start-1 xl:row-span-2 xl:row-start-1 xl:row-end-3 xl:aspect-9/16 xl:h-full xl:w-auto xl:object-cover"
         />
