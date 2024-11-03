@@ -68,7 +68,25 @@ export const Projects = {
       name: "content",
       title: "Content",
       type: "array",
-      of: [{ type: "block" }],
+      of: [
+        { type: "block" },
+        {
+          type: "code",
+          title: "Code Snippet",
+          options: {
+            language: "javascript",
+            languageAlternatives: [
+              { title: "JavaScript", value: "javascript" },
+              { title: "TypeScript", value: "typescript" },
+              { title: "Python", value: "python" },
+              { title: "HTML", value: "html" },
+              { title: "CSS", value: "css" },
+              { title: "Markdown", value: "markdown" },
+            ],
+            withFilename: true,
+          },
+        },
+      ],
     },
   ],
 };

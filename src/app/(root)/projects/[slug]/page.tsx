@@ -5,6 +5,7 @@ import gradientBG from "../../../../../public/gradient_bg.png";
 import { PortableText } from "@portabletext/react";
 import Link from "next/link";
 import { toast } from "react-toastify";
+import CodeBlock from "@/app/components/CodeBlock";
 
 export async function generateMetadata({ params }: Params) {
   const project = await getProject(params.slug);
@@ -58,7 +59,20 @@ export default async function ProjectDetails({ params }: Params) {
         </div>
         <Image src={gradientBG} alt="gradient background" priority />
         <div className="prose prose-lg prose-blue mx-auto max-w-[800px] pt-[100px] xl:prose-xl lg:pt-[160px]">
-          <PortableText value={project?.content} />
+          <PortableText
+            value={project?.content}
+            components={{
+              types: {
+                code: ({ value }) => (
+                  <CodeBlock
+                    filename={value.filename}
+                    code={value.code}
+                    language={value.language}
+                  />
+                ),
+              },
+            }}
+          />
         </div>
 
         {data?.nextProject && (
