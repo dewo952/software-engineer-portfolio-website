@@ -55,6 +55,28 @@ export default async function ProjectDetails({ params }: Params) {
               Project Overview
             </h4>
             <p className="md:text-lg">{project.description}</p>
+            <div className="mt-5 flex gap-4">
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline hover:text-blue-800"
+                >
+                  Live Project
+                </a>
+              )}
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline hover:text-blue-800"
+                >
+                  GitHub Repository
+                </a>
+              )}
+            </div>
           </div>
         </div>
         <Image src={gradientBG} alt="gradient background" priority />
@@ -63,6 +85,15 @@ export default async function ProjectDetails({ params }: Params) {
             value={project?.content}
             components={{
               types: {
+                image: ({ value }) => (
+                  <Image
+                    src={urlFor(value.asset).url()}
+                    width={1000}
+                    height={1000}
+                    alt={value.alt}
+                    style={{ maxWidth: "100%" }}
+                  />
+                ),
                 code: ({ value }) => (
                   <CodeBlock
                     filename={value.filename}
@@ -70,26 +101,36 @@ export default async function ProjectDetails({ params }: Params) {
                     language={value.language}
                   />
                 ),
-                image: ({ value }) => (
-                  <Image
-                    src={urlFor(value.asset).url()}
-                    width={500}
-                    height={500}
-                    alt={value.alt}
-                    style={{ maxWidth: "100%" }}
-                  />
-                ),
               },
             }}
           />
+          <div className="mt-10 flex flex-col gap-4">
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                Live Project
+              </a>
+            )}
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                GitHub Repository
+              </a>
+            )}
+          </div>
         </div>
 
         {data?.nextProject && (
           <Link href={`/projects/${data?.nextProject.slug}`}>
-            <div
-              className="flex justify-center"
-              // onClick={handleNextProjectNavigation}
-            >
+            <div className="flex justify-center">
               <div className="group mx-auto mt-10 inline-flex cursor-pointer items-center justify-center gap-3 bg-gradient-to-r from-purple-400 via-red-500 to-orange-600 bg-clip-text pb-4 text-center text-[30px] font-bold leading-[110%] text-transparent md:text-[50px] xl:text-[54px]">
                 <h2>Next Project</h2>
                 <svg
