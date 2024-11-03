@@ -71,6 +71,17 @@ export const Projects = {
       of: [
         { type: "block" },
         {
+          type: "image",
+          options: { hotspot: true },
+          fields: [
+            {
+              name: "alt",
+              title: "Alt",
+              type: "string",
+            },
+          ],
+        },
+        {
           type: "code",
           title: "Code Snippet",
           options: {

@@ -6,7 +6,7 @@ import { PortableText } from "@portabletext/react";
 import Link from "next/link";
 import { toast } from "react-toastify";
 import CodeBlock from "@/app/components/CodeBlock";
-
+import { urlFor } from "../../../../../sanity/config/client-config";
 export async function generateMetadata({ params }: Params) {
   const project = await getProject(params.slug);
   return {
@@ -68,6 +68,15 @@ export default async function ProjectDetails({ params }: Params) {
                     filename={value.filename}
                     code={value.code}
                     language={value.language}
+                  />
+                ),
+                image: ({ value }) => (
+                  <Image
+                    src={urlFor(value.asset).url()}
+                    width={500}
+                    height={500}
+                    alt={value.alt}
+                    style={{ maxWidth: "100%" }}
                   />
                 ),
               },
