@@ -6,7 +6,7 @@ import HeroImage from "../../../public/firstImage.avif";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import resume from "../../../public/Diven_Khatri_Resume.pdf";
+import resume from "../../../public/Diven_Khatris_Resume.pdf";
 
 export default function Hero() {
   const MotionImage = motion(Image);
